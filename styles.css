@@ -47,7 +47,7 @@ body {
 .banner {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 400px;
   overflow: hidden;
   background: #1a1a2e;
 }
@@ -362,6 +362,10 @@ main {
 
 /* Responsive */
 @media (max-width: 767px) {
+  .banner {
+    height: 300px;
+  }
+
   .banner-headline {
     font-size: 24px;
   }
